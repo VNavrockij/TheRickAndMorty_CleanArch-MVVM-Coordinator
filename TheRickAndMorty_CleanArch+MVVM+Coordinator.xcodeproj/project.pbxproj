@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC55F8F2B1F3F61008C269A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F8E2B1F3F61008C269A /* AppDelegate.swift */; };
+		FAC55F912B1F3F61008C269A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F902B1F3F61008C269A /* SceneDelegate.swift */; };
+		FAC55F932B1F3F61008C269A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F922B1F3F61008C269A /* ViewController.swift */; };
+		FAC55F962B1F3F61008C269A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC55F942B1F3F61008C269A /* Main.storyboard */; };
+		FAC55F992B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F972B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld */; };
+		FAC55F9B2B1F3F63008C269A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC55F9A2B1F3F63008C269A /* Assets.xcassets */; };
+		FAC55F9E2B1F3F63008C269A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC55F9C2B1F3F63008C269A /* LaunchScreen.storyboard */; };
+		FAC55FA92B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55FA82B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift */; };
+		FAC55FB32B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55FB22B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift */; };
+		FAC55FB52B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55FB42B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC55FA52B1F3F63008C269A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC55F832B1F3F61008C269A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC55F8A2B1F3F61008C269A;
+			remoteInfo = "TheRickAndMorty_CleanArch+MVVM+Coordinator";
+		};
+		FAC55FAF2B1F3F63008C269A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC55F832B1F3F61008C269A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC55F8A2B1F3F61008C269A;
+			remoteInfo = "TheRickAndMorty_CleanArch+MVVM+Coordinator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC55F8B2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheRickAndMorty_CleanArch+MVVM+Coordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC55F8E2B1F3F61008C269A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC55F902B1F3F61008C269A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAC55F922B1F3F61008C269A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAC55F952B1F3F61008C269A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC55F982B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodel; sourceTree = "<group>"; };
+		FAC55F9A2B1F3F63008C269A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC55F9D2B1F3F63008C269A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC55F9F2B1F3F63008C269A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC55FA42B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TheRickAndMorty_CleanArch+MVVM+CoordinatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC55FA82B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift; sourceTree = "<group>"; };
+		FAC55FAE2B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC55FB22B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift; sourceTree = "<group>"; };
+		FAC55FB42B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC55F882B1F3F61008C269A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC55FA12B1F3F63008C269A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC55FAB2B1F3F63008C269A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC55F822B1F3F61008C269A = {
+			isa = PBXGroup;
+			children = (
+				FAC55F8D2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator */,
+				FAC55FA72B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests */,
+				FAC55FB12B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests */,
+				FAC55F8C2B1F3F61008C269A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC55F8C2B1F3F61008C269A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55F8B2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator.app */,
+				FAC55FA42B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests.xctest */,
+				FAC55FAE2B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC55F8D2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55F8E2B1F3F61008C269A /* AppDelegate.swift */,
+				FAC55F902B1F3F61008C269A /* SceneDelegate.swift */,
+				FAC55F922B1F3F61008C269A /* ViewController.swift */,
+				FAC55F942B1F3F61008C269A /* Main.storyboard */,
+				FAC55F9A2B1F3F63008C269A /* Assets.xcassets */,
+				FAC55F9C2B1F3F63008C269A /* LaunchScreen.storyboard */,
+				FAC55F9F2B1F3F63008C269A /* Info.plist */,
+				FAC55F972B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld */,
+			);
+			path = "TheRickAndMorty_CleanArch+MVVM+Coordinator";
+			sourceTree = "<group>";
+		};
+		FAC55FA72B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55FA82B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift */,
+			);
+			path = "TheRickAndMorty_CleanArch+MVVM+CoordinatorTests";
+			sourceTree = "<group>";
+		};
+		FAC55FB12B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55FB22B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift */,
+				FAC55FB42B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift */,
+			);
+			path = "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC55F8A2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC55FB82B1F3F63008C269A /* Build configuration list for PBXNativeTarget "TheRickAndMorty_CleanArch+MVVM+Coordinator" */;
+			buildPhases = (
+				FAC55F872B1F3F61008C269A /* Sources */,
+				FAC55F882B1F3F61008C269A /* Frameworks */,
+				FAC55F892B1F3F61008C269A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TheRickAndMorty_CleanArch+MVVM+Coordinator";
+			productName = "TheRickAndMorty_CleanArch+MVVM+Coordinator";
+			productReference = FAC55F8B2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC55FA32B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC55FBB2B1F3F63008C269A /* Build configuration list for PBXNativeTarget "TheRickAndMorty_CleanArch+MVVM+CoordinatorTests" */;
+			buildPhases = (
+				FAC55FA02B1F3F63008C269A /* Sources */,
+				FAC55FA12B1F3F63008C269A /* Frameworks */,
+				FAC55FA22B1F3F63008C269A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC55FA62B1F3F63008C269A /* PBXTargetDependency */,
+			);
+			name = "TheRickAndMorty_CleanArch+MVVM+CoordinatorTests";
+			productName = "TheRickAndMorty_CleanArch+MVVM+CoordinatorTests";
+			productReference = FAC55FA42B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC55FAD2B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC55FBE2B1F3F63008C269A /* Build configuration list for PBXNativeTarget "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests" */;
+			buildPhases = (
+				FAC55FAA2B1F3F63008C269A /* Sources */,
+				FAC55FAB2B1F3F63008C269A /* Frameworks */,
+				FAC55FAC2B1F3F63008C269A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC55FB02B1F3F63008C269A /* PBXTargetDependency */,
+			);
+			name = "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests";
+			productName = "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests";
+			productReference = FAC55FAE2B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC55F832B1F3F61008C269A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FAC55F8A2B1F3F61008C269A = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FAC55FA32B1F3F63008C269A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FAC55F8A2B1F3F61008C269A;
+					};
+					FAC55FAD2B1F3F63008C269A = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = FAC55F8A2B1F3F61008C269A;
+					};
+				};
+			};
+			buildConfigurationList = FAC55F862B1F3F61008C269A /* Build configuration list for PBXProject "TheRickAndMorty_CleanArch+MVVM+Coordinator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC55F822B1F3F61008C269A;
+			productRefGroup = FAC55F8C2B1F3F61008C269A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC55F8A2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator */,
+				FAC55FA32B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests */,
+				FAC55FAD2B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC55F892B1F3F61008C269A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC55F9E2B1F3F63008C269A /* LaunchScreen.storyboard in Resources */,
+				FAC55F9B2B1F3F63008C269A /* Assets.xcassets in Resources */,
+				FAC55F962B1F3F61008C269A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC55FA22B1F3F63008C269A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC55FAC2B1F3F63008C269A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC55F872B1F3F61008C269A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC55F932B1F3F61008C269A /* ViewController.swift in Sources */,
+				FAC55F8F2B1F3F61008C269A /* AppDelegate.swift in Sources */,
+				FAC55F912B1F3F61008C269A /* SceneDelegate.swift in Sources */,
+				FAC55F992B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC55FA02B1F3F63008C269A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC55FA92B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC55FAA2B1F3F63008C269A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC55FB52B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift in Sources */,
+				FAC55FB32B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC55FA62B1F3F63008C269A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC55F8A2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator */;
+			targetProxy = FAC55FA52B1F3F63008C269A /* PBXContainerItemProxy */;
+		};
+		FAC55FB02B1F3F63008C269A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC55F8A2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator */;
+			targetProxy = FAC55FAF2B1F3F63008C269A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC55F942B1F3F61008C269A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC55F952B1F3F61008C269A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC55F9C2B1F3F63008C269A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC55F9D2B1F3F63008C269A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC55FB62B1F3F63008C269A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC55FB72B1F3F63008C269A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC55FB92B1F3F63008C269A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 763C3KNABL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TheRickAndMorty_CleanArch+MVVM+Coordinator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vnavrockij.TheRickAndMorty-CleanArch-MVVM-Coordinator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC55FBA2B1F3F63008C269A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 763C3KNABL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TheRickAndMorty_CleanArch+MVVM+Coordinator/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vnavrockij.TheRickAndMorty-CleanArch-MVVM-Coordinator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAC55FBC2B1F3F63008C269A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 763C3KNABL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vnavrockij.TheRickAndMorty-CleanArch-MVVM-CoordinatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheRickAndMorty_CleanArch+MVVM+Coordinator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TheRickAndMorty_CleanArch+MVVM+Coordinator";
+			};
+			name = Debug;
+		};
+		FAC55FBD2B1F3F63008C269A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 763C3KNABL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vnavrockij.TheRickAndMorty-CleanArch-MVVM-CoordinatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheRickAndMorty_CleanArch+MVVM+Coordinator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TheRickAndMorty_CleanArch+MVVM+Coordinator";
+			};
+			name = Release;
+		};
+		FAC55FBF2B1F3F63008C269A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 763C3KNABL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vnavrockij.TheRickAndMorty-CleanArch-MVVM-CoordinatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TheRickAndMorty_CleanArch+MVVM+Coordinator";
+			};
+			name = Debug;
+		};
+		FAC55FC02B1F3F63008C269A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 763C3KNABL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "vnavrockij.TheRickAndMorty-CleanArch-MVVM-CoordinatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TheRickAndMorty_CleanArch+MVVM+Coordinator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC55F862B1F3F61008C269A /* Build configuration list for PBXProject "TheRickAndMorty_CleanArch+MVVM+Coordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC55FB62B1F3F63008C269A /* Debug */,
+				FAC55FB72B1F3F63008C269A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC55FB82B1F3F63008C269A /* Build configuration list for PBXNativeTarget "TheRickAndMorty_CleanArch+MVVM+Coordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC55FB92B1F3F63008C269A /* Debug */,
+				FAC55FBA2B1F3F63008C269A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC55FBB2B1F3F63008C269A /* Build configuration list for PBXNativeTarget "TheRickAndMorty_CleanArch+MVVM+CoordinatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC55FBC2B1F3F63008C269A /* Debug */,
+				FAC55FBD2B1F3F63008C269A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC55FBE2B1F3F63008C269A /* Build configuration list for PBXNativeTarget "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC55FBF2B1F3F63008C269A /* Debug */,
+				FAC55FC02B1F3F63008C269A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAC55F972B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAC55F982B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodel */,
+			);
+			currentVersion = FAC55F982B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodel */;
+			path = TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAC55F832B1F3F61008C269A /* Project object */;
+}
