@@ -9,25 +9,15 @@
 /* Begin PBXBuildFile section */
 		FAC55F8F2B1F3F61008C269A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F8E2B1F3F61008C269A /* AppDelegate.swift */; };
 		FAC55F912B1F3F61008C269A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F902B1F3F61008C269A /* SceneDelegate.swift */; };
-		FAC55F932B1F3F61008C269A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F922B1F3F61008C269A /* ViewController.swift */; };
-		FAC55F962B1F3F61008C269A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC55F942B1F3F61008C269A /* Main.storyboard */; };
+		FAC55F932B1F3F61008C269A /* HomeMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F922B1F3F61008C269A /* HomeMenuController.swift */; };
 		FAC55F992B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F972B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld */; };
 		FAC55F9B2B1F3F63008C269A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC55F9A2B1F3F63008C269A /* Assets.xcassets */; };
 		FAC55F9E2B1F3F63008C269A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC55F9C2B1F3F63008C269A /* LaunchScreen.storyboard */; };
 		FAC55FA92B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55FA82B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift */; };
-		FAC55FB32B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55FB22B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift */; };
-		FAC55FB52B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55FB42B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		FAC55FA52B1F3F63008C269A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = FAC55F832B1F3F61008C269A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FAC55F8A2B1F3F61008C269A;
-			remoteInfo = "TheRickAndMorty_CleanArch+MVVM+Coordinator";
-		};
-		FAC55FAF2B1F3F63008C269A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FAC55F832B1F3F61008C269A /* Project object */;
 			proxyType = 1;
@@ -40,17 +30,13 @@
 		FAC55F8B2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheRickAndMorty_CleanArch+MVVM+Coordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC55F8E2B1F3F61008C269A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC55F902B1F3F61008C269A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAC55F922B1F3F61008C269A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAC55F952B1F3F61008C269A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC55F922B1F3F61008C269A /* HomeMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenuController.swift; sourceTree = "<group>"; };
 		FAC55F982B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodel; sourceTree = "<group>"; };
 		FAC55F9A2B1F3F63008C269A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC55F9D2B1F3F63008C269A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC55F9F2B1F3F63008C269A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAC55FA42B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TheRickAndMorty_CleanArch+MVVM+CoordinatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC55FA82B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift; sourceTree = "<group>"; };
-		FAC55FAE2B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAC55FB22B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift; sourceTree = "<group>"; };
-		FAC55FB42B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,13 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAC55FAB2B1F3F63008C269A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -83,7 +62,6 @@
 			children = (
 				FAC55F8D2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator */,
 				FAC55FA72B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests */,
-				FAC55FB12B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests */,
 				FAC55F8C2B1F3F61008C269A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -93,7 +71,6 @@
 			children = (
 				FAC55F8B2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator.app */,
 				FAC55FA42B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests.xctest */,
-				FAC55FAE2B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,14 +78,8 @@
 		FAC55F8D2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				FAC55F8E2B1F3F61008C269A /* AppDelegate.swift */,
-				FAC55F902B1F3F61008C269A /* SceneDelegate.swift */,
-				FAC55F922B1F3F61008C269A /* ViewController.swift */,
-				FAC55F942B1F3F61008C269A /* Main.storyboard */,
-				FAC55F9A2B1F3F63008C269A /* Assets.xcassets */,
-				FAC55F9C2B1F3F63008C269A /* LaunchScreen.storyboard */,
+				FAC55FC12B1F6D52008C269A /* App */,
 				FAC55F9F2B1F3F63008C269A /* Info.plist */,
-				FAC55F972B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld */,
 			);
 			path = "TheRickAndMorty_CleanArch+MVVM+Coordinator";
 			sourceTree = "<group>";
@@ -121,13 +92,257 @@
 			path = "TheRickAndMorty_CleanArch+MVVM+CoordinatorTests";
 			sourceTree = "<group>";
 		};
-		FAC55FB12B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests */ = {
+		FAC55FC12B1F6D52008C269A /* App */ = {
 			isa = PBXGroup;
 			children = (
-				FAC55FB22B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift */,
-				FAC55FB42B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift */,
+				FAC55FC72B1F6DE0008C269A /* Storage */,
+				FAC55FC62B1F6DCA008C269A /* Resources */,
+				FAC55FC52B1F6DBB008C269A /* Networking */,
+				FAC55FC42B1F6DA4008C269A /* Common */,
+				FAC55FC32B1F6D79008C269A /* ScreensModules */,
+				FAC55FC22B1F6D5A008C269A /* CompositionRoot */,
 			);
-			path = "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests";
+			path = App;
+			sourceTree = "<group>";
+		};
+		FAC55FC22B1F6D5A008C269A /* CompositionRoot */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55FDF2B1F716F008C269A /* System */,
+				FAC55FDD2B1F7045008C269A /* DIContainer */,
+				FAC55FDC2B1F7027008C269A /* Factories */,
+				FAC55FD92B1F6FD2008C269A /* Coordinator */,
+			);
+			path = CompositionRoot;
+			sourceTree = "<group>";
+		};
+		FAC55FC32B1F6D79008C269A /* ScreensModules */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55FDE2B1F7096008C269A /* LaunchScreen */,
+				FAC55FCE2B1F6E72008C269A /* LocationDetail */,
+				FAC55FCD2B1F6E5E008C269A /* Origin */,
+				FAC55FCC2B1F6E4B008C269A /* Episodes */,
+				FAC55FCB2B1F6E41008C269A /* Locations */,
+				FAC55FCA2B1F6E29008C269A /* CharactersDetail */,
+				FAC55FC92B1F6E14008C269A /* Characters */,
+				FAC55FC82B1F6E09008C269A /* HomeMenu */,
+			);
+			path = ScreensModules;
+			sourceTree = "<group>";
+		};
+		FAC55FC42B1F6DA4008C269A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55FD82B1F6F5E008C269A /* Localize */,
+				FAC55FD72B1F6F46008C269A /* StateController */,
+				FAC55FD62B1F6F21008C269A /* Utils */,
+				FAC55FD22B1F6EB6008C269A /* Layer */,
+				FAC55FD02B1F6E9F008C269A /* Constants */,
+				FAC55FCF2B1F6E97008C269A /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		FAC55FC52B1F6DBB008C269A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		FAC55FC62B1F6DCA008C269A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55F9A2B1F3F63008C269A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FAC55FC72B1F6DE0008C269A /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55F972B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		FAC55FC82B1F6E09008C269A /* HomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55F922B1F3F61008C269A /* HomeMenuController.swift */,
+			);
+			path = HomeMenu;
+			sourceTree = "<group>";
+		};
+		FAC55FC92B1F6E14008C269A /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		FAC55FCA2B1F6E29008C269A /* CharactersDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CharactersDetail;
+			sourceTree = "<group>";
+		};
+		FAC55FCB2B1F6E41008C269A /* Locations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Locations;
+			sourceTree = "<group>";
+		};
+		FAC55FCC2B1F6E4B008C269A /* Episodes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Episodes;
+			sourceTree = "<group>";
+		};
+		FAC55FCD2B1F6E5E008C269A /* Origin */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Origin;
+			sourceTree = "<group>";
+		};
+		FAC55FCE2B1F6E72008C269A /* LocationDetail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocationDetail;
+			sourceTree = "<group>";
+		};
+		FAC55FCF2B1F6E97008C269A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FAC55FD02B1F6E9F008C269A /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FAC55FD12B1F6EA8008C269A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		FAC55FD22B1F6EB6008C269A /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55FD52B1F6EF9008C269A /* Presentation */,
+				FAC55FD42B1F6ED7008C269A /* Domain */,
+				FAC55FD32B1F6EC1008C269A /* Data */,
+			);
+			path = Layer;
+			sourceTree = "<group>";
+		};
+		FAC55FD32B1F6EC1008C269A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FAC55FD42B1F6ED7008C269A /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FAC55FD52B1F6EF9008C269A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55FD12B1F6EA8008C269A /* Components */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FAC55FD62B1F6F21008C269A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FAC55FD72B1F6F46008C269A /* StateController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = StateController;
+			sourceTree = "<group>";
+		};
+		FAC55FD82B1F6F5E008C269A /* Localize */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Localize;
+			sourceTree = "<group>";
+		};
+		FAC55FD92B1F6FD2008C269A /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55FDB2B1F7000008C269A /* CoordinatorScreens */,
+				FAC55FDA2B1F6FE9008C269A /* Utils */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		FAC55FDA2B1F6FE9008C269A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FAC55FDB2B1F7000008C269A /* CoordinatorScreens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoordinatorScreens;
+			sourceTree = "<group>";
+		};
+		FAC55FDC2B1F7027008C269A /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		FAC55FDD2B1F7045008C269A /* DIContainer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DIContainer;
+			sourceTree = "<group>";
+		};
+		FAC55FDE2B1F7096008C269A /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55F9C2B1F3F63008C269A /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		FAC55FDF2B1F716F008C269A /* System */ = {
+			isa = PBXGroup;
+			children = (
+				FAC55F8E2B1F3F61008C269A /* AppDelegate.swift */,
+				FAC55F902B1F3F61008C269A /* SceneDelegate.swift */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,24 +383,6 @@
 			productReference = FAC55FA42B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FAC55FAD2B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FAC55FBE2B1F3F63008C269A /* Build configuration list for PBXNativeTarget "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests" */;
-			buildPhases = (
-				FAC55FAA2B1F3F63008C269A /* Sources */,
-				FAC55FAB2B1F3F63008C269A /* Frameworks */,
-				FAC55FAC2B1F3F63008C269A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				FAC55FB02B1F3F63008C269A /* PBXTargetDependency */,
-			);
-			name = "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests";
-			productName = "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests";
-			productReference = FAC55FAE2B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,10 +397,6 @@
 						CreatedOnToolsVersion = 15.0.1;
 					};
 					FAC55FA32B1F3F63008C269A = {
-						CreatedOnToolsVersion = 15.0.1;
-						TestTargetID = FAC55F8A2B1F3F61008C269A;
-					};
-					FAC55FAD2B1F3F63008C269A = {
 						CreatedOnToolsVersion = 15.0.1;
 						TestTargetID = FAC55F8A2B1F3F61008C269A;
 					};
@@ -224,7 +417,6 @@
 			targets = (
 				FAC55F8A2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator */,
 				FAC55FA32B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests */,
-				FAC55FAD2B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,18 +428,10 @@
 			files = (
 				FAC55F9E2B1F3F63008C269A /* LaunchScreen.storyboard in Resources */,
 				FAC55F9B2B1F3F63008C269A /* Assets.xcassets in Resources */,
-				FAC55F962B1F3F61008C269A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		FAC55FA22B1F3F63008C269A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FAC55FAC2B1F3F63008C269A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,7 +445,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAC55F932B1F3F61008C269A /* ViewController.swift in Sources */,
+				FAC55F932B1F3F61008C269A /* HomeMenuController.swift in Sources */,
 				FAC55F8F2B1F3F61008C269A /* AppDelegate.swift in Sources */,
 				FAC55F912B1F3F61008C269A /* SceneDelegate.swift in Sources */,
 				FAC55F992B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld in Sources */,
@@ -276,15 +460,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAC55FAA2B1F3F63008C269A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FAC55FB52B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITestsLaunchTests.swift in Sources */,
-				FAC55FB32B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -293,22 +468,9 @@
 			target = FAC55F8A2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator */;
 			targetProxy = FAC55FA52B1F3F63008C269A /* PBXContainerItemProxy */;
 		};
-		FAC55FB02B1F3F63008C269A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = FAC55F8A2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator */;
-			targetProxy = FAC55FAF2B1F3F63008C269A /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAC55F942B1F3F61008C269A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FAC55F952B1F3F61008C269A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FAC55F9C2B1F3F63008C269A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -451,9 +613,9 @@
 				INFOPLIST_FILE = "TheRickAndMorty_CleanArch+MVVM+Coordinator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,9 +623,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "vnavrockij.TheRickAndMorty-CleanArch-MVVM-Coordinator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -479,9 +643,9 @@
 				INFOPLIST_FILE = "TheRickAndMorty_CleanArch+MVVM+Coordinator/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,9 +653,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "vnavrockij.TheRickAndMorty-CleanArch-MVVM-Coordinator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -535,42 +701,6 @@
 			};
 			name = Release;
 		};
-		FAC55FBF2B1F3F63008C269A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 763C3KNABL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vnavrockij.TheRickAndMorty-CleanArch-MVVM-CoordinatorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "TheRickAndMorty_CleanArch+MVVM+Coordinator";
-			};
-			name = Debug;
-		};
-		FAC55FC02B1F3F63008C269A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 763C3KNABL;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "vnavrockij.TheRickAndMorty-CleanArch-MVVM-CoordinatorUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "TheRickAndMorty_CleanArch+MVVM+Coordinator";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -597,15 +727,6 @@
 			buildConfigurations = (
 				FAC55FBC2B1F3F63008C269A /* Debug */,
 				FAC55FBD2B1F3F63008C269A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FAC55FBE2B1F3F63008C269A /* Build configuration list for PBXNativeTarget "TheRickAndMorty_CleanArch+MVVM+CoordinatorUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FAC55FBF2B1F3F63008C269A /* Debug */,
-				FAC55FC02B1F3F63008C269A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
