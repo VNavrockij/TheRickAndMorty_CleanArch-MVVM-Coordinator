@@ -14,6 +14,9 @@
 		FAC55F9B2B1F3F63008C269A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC55F9A2B1F3F63008C269A /* Assets.xcassets */; };
 		FAC55F9E2B1F3F63008C269A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC55F9C2B1F3F63008C269A /* LaunchScreen.storyboard */; };
 		FAC55FA92B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55FA82B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift */; };
+		FACF2F222B27736B009EB608 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF2F212B27736B009EB608 /* Coordinator.swift */; };
+		FACF2F252B2773DB009EB608 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF2F242B2773DB009EB608 /* AppCoordinator.swift */; };
+		FACF2F272B277441009EB608 /* AppFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACF2F262B277441009EB608 /* AppFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,9 @@
 		FAC55F9F2B1F3F63008C269A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAC55FA42B1F3F63008C269A /* TheRickAndMorty_CleanArch+MVVM+CoordinatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TheRickAndMorty_CleanArch+MVVM+CoordinatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC55FA82B1F3F63008C269A /* TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRickAndMorty_CleanArch_MVVM_CoordinatorTests.swift; sourceTree = "<group>"; };
+		FACF2F212B27736B009EB608 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		FACF2F242B2773DB009EB608 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		FACF2F262B277441009EB608 /* AppFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -294,6 +300,7 @@
 		FAC55FD92B1F6FD2008C269A /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				FACF2F232B2773B7009EB608 /* AppCoordinator */,
 				FAC55FDB2B1F7000008C269A /* CoordinatorScreens */,
 				FAC55FDA2B1F6FE9008C269A /* Utils */,
 			);
@@ -317,6 +324,7 @@
 		FAC55FDC2B1F7027008C269A /* Factories */ = {
 			isa = PBXGroup;
 			children = (
+				FACF2F262B277441009EB608 /* AppFactory.swift */,
 			);
 			path = Factories;
 			sourceTree = "<group>";
@@ -343,6 +351,15 @@
 				FAC55F902B1F3F61008C269A /* SceneDelegate.swift */,
 			);
 			path = System;
+			sourceTree = "<group>";
+		};
+		FACF2F232B2773B7009EB608 /* AppCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				FACF2F212B27736B009EB608 /* Coordinator.swift */,
+				FACF2F242B2773DB009EB608 /* AppCoordinator.swift */,
+			);
+			path = AppCoordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -445,9 +462,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACF2F252B2773DB009EB608 /* AppCoordinator.swift in Sources */,
 				FAC55F932B1F3F61008C269A /* HomeMenuController.swift in Sources */,
 				FAC55F8F2B1F3F61008C269A /* AppDelegate.swift in Sources */,
+				FACF2F222B27736B009EB608 /* Coordinator.swift in Sources */,
 				FAC55F912B1F3F61008C269A /* SceneDelegate.swift in Sources */,
+				FACF2F272B277441009EB608 /* AppFactory.swift in Sources */,
 				FAC55F992B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
