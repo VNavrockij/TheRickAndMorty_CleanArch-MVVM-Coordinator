@@ -25,7 +25,7 @@ final class FakeCoordinator: Coordinator {
     }
 
     func start() {
-        <#code#>
+        //
     }
     
 
