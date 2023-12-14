@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		FA60C3BF2B29E6AA004BFBE9 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60C3BE2B29E6AA004BFBE9 /* HomeCoordinator.swift */; };
 		FA60C3C12B29E718004BFBE9 /* HomeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA60C3C02B29E718004BFBE9 /* HomeFactory.swift */; };
+		FA9C04E52B2B2B4600CA47AC /* ItemHomeMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C04E42B2B2B4600CA47AC /* ItemHomeMenuCell.swift */; };
+		FA9C04E72B2B2D9900CA47AC /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C04E62B2B2D9900CA47AC /* UIView+Constraints.swift */; };
+		FA9C04E92B2B31E500CA47AC /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9C04E82B2B31E500CA47AC /* Reusable.swift */; };
 		FAC55F8F2B1F3F61008C269A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F8E2B1F3F61008C269A /* AppDelegate.swift */; };
 		FAC55F912B1F3F61008C269A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F902B1F3F61008C269A /* SceneDelegate.swift */; };
 		FAC55F932B1F3F61008C269A /* HomeMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC55F922B1F3F61008C269A /* HomeMenuController.swift */; };
@@ -34,6 +37,9 @@
 /* Begin PBXFileReference section */
 		FA60C3BE2B29E6AA004BFBE9 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
 		FA60C3C02B29E718004BFBE9 /* HomeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFactory.swift; sourceTree = "<group>"; };
+		FA9C04E42B2B2B4600CA47AC /* ItemHomeMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemHomeMenuCell.swift; sourceTree = "<group>"; };
+		FA9C04E62B2B2D9900CA47AC /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		FA9C04E82B2B31E500CA47AC /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		FAC55F8B2B1F3F61008C269A /* TheRickAndMorty_CleanArch+MVVM+Coordinator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheRickAndMorty_CleanArch+MVVM+Coordinator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC55F8E2B1F3F61008C269A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC55F902B1F3F61008C269A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -181,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				FAC55F922B1F3F61008C269A /* HomeMenuController.swift */,
+				FA9C04E42B2B2B4600CA47AC /* ItemHomeMenuCell.swift */,
 			);
 			path = HomeMenu;
 			sourceTree = "<group>";
@@ -230,6 +237,7 @@
 		FAC55FCF2B1F6E97008C269A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FA9C04E62B2B2D9900CA47AC /* UIView+Constraints.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -283,6 +291,7 @@
 		FAC55FD62B1F6F21008C269A /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				FA9C04E82B2B31E500CA47AC /* Reusable.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -468,14 +477,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9C04E92B2B31E500CA47AC /* Reusable.swift in Sources */,
 				FACF2F252B2773DB009EB608 /* AppCoordinator.swift in Sources */,
 				FAC55F932B1F3F61008C269A /* HomeMenuController.swift in Sources */,
 				FAC55F8F2B1F3F61008C269A /* AppDelegate.swift in Sources */,
 				FACF2F222B27736B009EB608 /* Coordinator.swift in Sources */,
+				FA9C04E52B2B2B4600CA47AC /* ItemHomeMenuCell.swift in Sources */,
 				FAC55F912B1F3F61008C269A /* SceneDelegate.swift in Sources */,
 				FA60C3BF2B29E6AA004BFBE9 /* HomeCoordinator.swift in Sources */,
 				FACF2F272B277441009EB608 /* AppFactory.swift in Sources */,
 				FAC55F992B1F3F61008C269A /* TheRickAndMorty_CleanArch_MVVM_Coordinator.xcdatamodeld in Sources */,
+				FA9C04E72B2B2D9900CA47AC /* UIView+Constraints.swift in Sources */,
 				FA60C3C12B29E718004BFBE9 /* HomeFactory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
