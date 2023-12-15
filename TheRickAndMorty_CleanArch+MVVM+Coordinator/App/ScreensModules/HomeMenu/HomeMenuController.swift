@@ -12,6 +12,7 @@ class HomeMenuController: UICollectionViewController {
         super.viewDidLoad()
         configUI()
         configCollectionView()
+        print("Hello")
     }
 
     private func configUI() {
